@@ -1,0 +1,47 @@
+/*main*/
+.main{
+    #imagenFondoMacarons {
+        background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding: 99px;
+        #letraImagen{
+            background-color:rgba(128, 128, 128, 0.315);
+            font-family: 'Nanum Gothic', sans-serif;
+            span{
+                font-style: italic;
+            }
+        }
+    }
+    .displayflex {
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+        flex-wrap: wrap;
+        .nuestrosproductos{
+            color: #e99f9f;
+            padding: 20px;
+        }
+        .divFlexInicio{
+            display: flex;
+            justify-content: center;
+            .ancho-carousel{
+                width: 80vw;
+            }
+            .buttonpf {
+                background-color: #cf8c8c;
+                color: white;
+            }
+            .btnFlex{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+    
+}

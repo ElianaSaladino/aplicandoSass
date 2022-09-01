@@ -1,0 +1,56 @@
+/*footer*/
+
+.footer{
+    display: grid;
+    grid-template-areas: 
+    "seguinos seguinos seguinos seguinos"
+    "redesDeFooter redesDeFooter redesDeFooter redesDeFooter"
+    "encontranos encontranos encontranos encontranos"
+    "ubicacion ubicacion ubicacion ubicacion";
+    grid-template-rows: repeat(4, 16vh);
+    background-color: #cf8c8c;
+    color: hwb(0 100% 0%);
+    font-size: 22px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    .seguinos{
+        grid-area: seguinos;
+        width: 100vw;
+        text-align: center;
+    }
+    .redesDeFooter {
+        grid-area: redesDeFooter;
+        width: 100vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        a{
+            text-align: center;
+            grid-area: redesDeFooter;
+            line-height: 2;
+            font-size: 20px;
+            background-color:white;
+            text-decoration: none;
+            padding: 10px;
+            color: indianred;
+            
+        }
+    }
+    .encontranos{
+        grid-area: encontranos;
+        width: 100vw;
+        text-align: center;
+    }
+    .ubicacion{
+        grid-area: ubicacion;
+        width: 100vw;
+        text-align: center;
+        iframe {
+            width: 60vw;
+            height: 18vh;
+            grid-area: ubicacion;
+        }
+    }
+}

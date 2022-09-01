@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.anchoNav {
+  width: 100vw; }
+
+/*main*/
+.main #imagenFondoMacarons {
+  background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 99px; }
+  .main #imagenFondoMacarons #letraImagen {
+    background-color: rgba(128, 128, 128, 0.315);
+    font-family: 'Nanum Gothic', sans-serif; }
+    .main #imagenFondoMacarons #letraImagen span {
+      font-style: italic; }
+
+.main .displayflex {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  flex-wrap: wrap; }
+  .main .displayflex .nuestrosproductos {
+    color: #e99f9f;
+    padding: 20px; }
+  .main .displayflex .divFlexInicio {
+    display: flex;
+    justify-content: center; }
+    .main .displayflex .divFlexInicio .ancho-carousel {
+      width: 80vw; }
+    .main .displayflex .divFlexInicio .buttonpf {
+      background-color: #cf8c8c;
+      color: white; }
+    .main .displayflex .divFlexInicio .btnFlex {
+      display: flex;
+      justify-content: center; }
+
+/*header*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .header img {
+    width: 50vw; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    background-color: #cf8c8c;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 100vw; }
+    .header ul a {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; }
+
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e99f9f;
+  border-top: 15px solid white;
+  border-bottom: 15px solid white;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 25px 25px;
+  width: 100vw;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+  .titulo span {
+    font-style: italic; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*footer*/
+.footer {
+  display: grid;
+  grid-template-areas: "seguinos seguinos seguinos seguinos" "redesDeFooter redesDeFooter redesDeFooter redesDeFooter" "encontranos encontranos encontranos encontranos" "ubicacion ubicacion ubicacion ubicacion";
+  grid-template-rows: repeat(4, 16vh);
+  background-color: #cf8c8c;
+  color: hwb(0 100% 0%);
+  font-size: 22px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly; }
+  .footer .seguinos {
+    grid-area: seguinos;
+    width: 100vw;
+    text-align: center; }
+  .footer .redesDeFooter {
+    grid-area: redesDeFooter;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .footer .redesDeFooter a {
+      text-align: center;
+      grid-area: redesDeFooter;
+      line-height: 2;
+      font-size: 20px;
+      background-color: white;
+      text-decoration: none;
+      padding: 10px;
+      color: indianred; }
+  .footer .encontranos {
+    grid-area: encontranos;
+    width: 100vw;
+    text-align: center; }
+  .footer .ubicacion {
+    grid-area: ubicacion;
+    width: 100vw;
+    text-align: center; }
+    .footer .ubicacion iframe {
+      width: 60vw;
+      height: 18vh;
+      grid-area: ubicacion; }
+
+/*medias query = MOBILE FIRST*/
+/* dispositivos medianos */
+@media (min-width: 768px) {
+  .nav ul {
+    display: flex;
+    width: 60vw;
+    padding: 10px;
+    height: 150px; }
+  .header img {
+    width: 40vw; }
+  .header .titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px 25px;
+    width: 100vw; }
+  .main #imagenFondoMacarons {
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    padding: 115px; }
+  .footer {
+    display: grid;
+    grid-template-areas: "seguinos seguinos seguinos seguinos" "redesDeFooter redesDeFooter redesDeFooter redesDeFooter" "encontranos encontranos encontranos encontranos" "ubicacion ubicacion ubicacion ubicacion";
+    grid-template-rows: repeat(4, 15vh);
+    font-size: 22px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly; }
+    .footer .redesDeFooter {
+      grid-area: redesDeFooter;
+      width: 100vw;
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row; } }
+
+/*dispositivos grandes */
+@media (min-width: 1024px) {
+  .nav ul {
+    display: flex;
+    width: 70vw;
+    padding: 6px;
+    height: 107px; }
+  .header img {
+    width: 30vw;
+    height: 143px; }
+  .header .titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px 25px;
+    width: 100vw; }
+  .main #imagenFondoMacarons {
+    background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 41px;
+    text-align: center;
+    padding: 79px; } }

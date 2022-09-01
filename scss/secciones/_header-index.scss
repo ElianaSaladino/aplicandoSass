@@ -1,0 +1,55 @@
+/*header*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    img {
+        width: 50vw;
+        }
+    ul{
+        display: flex;
+        list-style: none;
+        background-color:rgb(207, 140, 140);
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+        width: 100vw;
+        a{
+            display: flex;
+            text-decoration: none;
+            color: white;
+            font-size: 20px; 
+        }
+    }
+    
+    }
+    .titulo{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #e99f9f;
+        border-top: 15px solid white;
+        border-bottom: 15px solid white;
+        text-align: center;
+        font-size: 30px;
+        background-color: white;
+        padding: 25px 25px;
+        width: 100vw;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+        span{
+            font-style: italic;
+        }
+    }
+    
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
