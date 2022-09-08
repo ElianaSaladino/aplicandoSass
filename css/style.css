@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Nanum+Gothic:wght@400;700&family=Roboto:wght@100;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Nanum+Gothic:wght@400;700&family=Raleway:wght@200&family=Roboto:wght@100;300;500&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -7,6 +8,10 @@
 
 .anchoNav {
   width: 100vw; }
+
+.footer .seguinos {
+  color: #ffd8dcf8;
+  font-style: "Raleway", sans-serif; }
 
 /*main*/
 .main #imagenFondoMacarons {
@@ -16,8 +21,8 @@
   background-position: center;
   color: white;
   font-size: 40px;
-  text-align: center;
-  padding: 99px; }
+  padding: 99px;
+  width: 100vw; }
   .main #imagenFondoMacarons #letraImagen {
     background-color: rgba(128, 128, 128, 0.315);
     font-family: 'Nanum Gothic', sans-serif; }
@@ -32,8 +37,16 @@
   flex-wrap: wrap; }
   .main .displayflex .nuestrosproductos {
     color: #e99f9f;
+    width: 80vw;
     padding: 20px;
-    background-color: white; }
+    margin: 15px;
+    background-color: white;
+    font-size: 25px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: italic;
+    color: #af3991;
+    background-color: #ffd8dcf8;
+    font-style: "Nanum Gothic", sans-serif; }
   .main .displayflex .divFlexInicio {
     display: flex;
     justify-content: center; }
@@ -51,7 +64,8 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  width: 100vw; }
   .header img {
     width: 50vw; }
   .header ul {
@@ -184,7 +198,13 @@
   text-align: center;
   padding: 10px;
   color: white;
-  font-size: 20px; }
+  font-size: 20px;
+  font-size: 25px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: italic;
+  color: #af3991;
+  background-color: #ffd8dcf8;
+  font-style: "Nanum Gothic", sans-serif; }
 
 .main h3 {
   text-align: center;
@@ -304,7 +324,13 @@
   display: flex;
   padding: 15px;
   background-color: #f5d8d8;
-  color: #574e4e; }
+  color: #574e4e;
+  font-size: 25px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-style: italic;
+  color: #af3991;
+  background-color: #ffd8dcf8;
+  font-style: "Nanum Gothic", sans-serif; }
 
 .footer {
   display: grid;
@@ -406,7 +432,13 @@
     color: sienna;
     font-size: 20px;
     text-align: center;
-    padding: 20px; }
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: italic;
+    color: #af3991;
+    background-color: #ffd8dcf8;
+    font-style: "Nanum Gothic", sans-serif; }
 
 .footer {
   display: grid;
@@ -539,7 +571,13 @@
   .footer .encontranos {
     grid-area: encontranos;
     width: 100vw;
-    text-align: center; }
+    text-align: center;
+    font-size: 15px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: italic;
+    color: #af3991;
+    background-color: #ffd8dcf8;
+    font-style: "Nanum Gothic", sans-serif; }
   .footer .ubicacion {
     grid-area: ubicacion;
     width: 100vw;

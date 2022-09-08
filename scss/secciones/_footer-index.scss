@@ -18,14 +18,18 @@
         grid-area: seguinos;
         width: 100vw;
         text-align: center;
+        @extend %estiloPrincipal;
+
     }
     .redesDeFooter {
+        
         grid-area: redesDeFooter;
         width: 100vw;
         text-align: center;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        
         a{
             text-align: center;
             grid-area: redesDeFooter;
@@ -35,6 +39,7 @@
             text-decoration: none;
             padding: 10px;
             color: indianred;
+            
             
         }
     }

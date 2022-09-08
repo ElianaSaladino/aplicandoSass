@@ -4,4 +4,6 @@
     padding: 15px;
     background-color: #f5d8d8;
     color: #574e4e;
+    @include estiloTexto (25px);
+    
 }

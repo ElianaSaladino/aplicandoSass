@@ -16,6 +16,7 @@
         grid-area: seguinos;
         width: 100vw;
         text-align: center;
+        @extend %estiloPrincipal;
     }
     .redesDeFooter {
         grid-area: redesDeFooter;

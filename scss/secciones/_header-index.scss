@@ -5,6 +5,7 @@
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100vw;
     img {
         width: 50vw;
         }
@@ -26,6 +27,8 @@
     }
     
     }
+    
+
     .titulo{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: #e99f9f;

@@ -1,9 +1,8 @@
 //extend
 
 %estiloPrincipal{
-    background-color: $rosa;
-    color: black;
-    font-style: $typo-ppal;
+    color: $rosa;
+    font-style: $typoredes;
 }
 
 //mixin
@@ -11,4 +10,7 @@
     font-size: $size;
     font-family: $typo-ppal;
     font-style: italic;
+    color: $font-color;
+    background-color: $rosa;
+    font-style: $typo-ppal;
 }
