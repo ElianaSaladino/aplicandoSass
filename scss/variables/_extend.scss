@@ -1,0 +1,14 @@
+//extend
+
+%estiloPrincipal{
+    background-color: $rosa;
+    color: black;
+    font-style: $typo-ppal;
+}
+
+//mixin
+@mixin estiloTexto ($size) {
+    font-size: $size;
+    font-family: $typo-ppal;
+    font-style: italic;
+}

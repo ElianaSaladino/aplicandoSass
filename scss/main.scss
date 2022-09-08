@@ -8,6 +8,9 @@
     width: 100vw; 
 }
 
+@import './variables/colores';
+@import './variables/typo';
+@import './variables/extend';
 @import './secciones/main-index';
 @import './secciones/header-index';
 @import './secciones/footer-index';
