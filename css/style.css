@@ -505,6 +505,43 @@
   background: linear-gradient(0deg, #f9f2fe 0%, #cf8c8c 100%);
   padding: 60px; }
 
+/*main*/
+.main #imagenFondoMacarons {
+  background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 99px; }
+  .main #imagenFondoMacarons #letraImagen {
+    background-color: rgba(128, 128, 128, 0.315);
+    font-family: 'Nanum Gothic', sans-serif; }
+    .main #imagenFondoMacarons #letraImagen span {
+      font-style: italic; }
+
+.main .displayflex {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  flex-wrap: wrap; }
+  .main .displayflex .nuestrosproductos {
+    color: #e99f9f;
+    padding: 20px; }
+  .main .displayflex .divFlexInicio {
+    display: flex;
+    justify-content: center; }
+    .main .displayflex .divFlexInicio .ancho-carousel {
+      width: 80vw; }
+    .main .displayflex .divFlexInicio .buttonpf {
+      background-color: #cf8c8c;
+      color: white; }
+    .main .displayflex .divFlexInicio .btnFlex {
+      display: flex;
+      justify-content: center; }
+
 /*medias query = MOBILE FIRST*/
 /* dispositivos medianos */
 @media (min-width: 768px) {
