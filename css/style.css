@@ -32,7 +32,8 @@
   flex-wrap: wrap; }
   .main .displayflex .nuestrosproductos {
     color: #e99f9f;
-    padding: 20px; }
+    padding: 20px;
+    background-color: white; }
   .main .displayflex .divFlexInicio {
     display: flex;
     justify-content: center; }
@@ -505,42 +506,48 @@
   background: linear-gradient(0deg, #f9f2fe 0%, #cf8c8c 100%);
   padding: 60px; }
 
-/*main*/
-.main #imagenFondoMacarons {
-  background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/12153328/gastronomia-patisserie-destacada.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-  font-size: 40px;
-  text-align: center;
-  padding: 99px; }
-  .main #imagenFondoMacarons #letraImagen {
-    background-color: rgba(128, 128, 128, 0.315);
-    font-family: 'Nanum Gothic', sans-serif; }
-    .main #imagenFondoMacarons #letraImagen span {
-      font-style: italic; }
-
-.main .displayflex {
-  display: flex;
-  justify-content: center;
-  align-content: stretch;
+.footer {
+  display: grid;
+  grid-template-areas: "seguinos seguinos seguinos seguinos" "redesDeFooter redesDeFooter redesDeFooter redesDeFooter" "encontranos encontranos encontranos encontranos" "ubicacion ubicacion ubicacion ubicacion";
+  grid-template-rows: repeat(4, 16vh);
+  background-color: #cf8c8c;
+  color: hwb(0 100% 0%);
+  font-size: 22px;
+  width: 100vw;
   align-items: center;
-  flex-wrap: wrap; }
-  .main .displayflex .nuestrosproductos {
-    color: #e99f9f;
-    padding: 20px; }
-  .main .displayflex .divFlexInicio {
+  justify-content: space-evenly; }
+  .footer .seguinos {
+    grid-area: seguinos;
+    width: 100vw;
+    text-align: center; }
+  .footer .redesDeFooter {
+    grid-area: redesDeFooter;
+    width: 100vw;
+    text-align: center;
     display: flex;
-    justify-content: center; }
-    .main .displayflex .divFlexInicio .ancho-carousel {
-      width: 80vw; }
-    .main .displayflex .divFlexInicio .buttonpf {
-      background-color: #cf8c8c;
-      color: white; }
-    .main .displayflex .divFlexInicio .btnFlex {
-      display: flex;
-      justify-content: center; }
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .footer .redesDeFooter a {
+      text-align: center;
+      grid-area: redesDeFooter;
+      line-height: 2;
+      font-size: 20px;
+      background-color: white;
+      text-decoration: none;
+      padding: 10px;
+      color: indianred; }
+  .footer .encontranos {
+    grid-area: encontranos;
+    width: 100vw;
+    text-align: center; }
+  .footer .ubicacion {
+    grid-area: ubicacion;
+    width: 100vw;
+    text-align: center; }
+    .footer .ubicacion iframe {
+      width: 60vw;
+      height: 18vh;
+      grid-area: ubicacion; }
 
 /*medias query = MOBILE FIRST*/
 /* dispositivos medianos */
