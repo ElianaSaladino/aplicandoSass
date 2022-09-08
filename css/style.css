@@ -134,6 +134,377 @@
       height: 18vh;
       grid-area: ubicacion; }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .header img {
+    width: 50vw; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    background-color: #cf8c8c;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 100vw; }
+    .header ul a {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; }
+
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e99f9f;
+  border-top: 15px solid white;
+  border-bottom: 15px solid white;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 25px 25px;
+  width: 100vw;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+  .titulo span {
+    font-style: italic; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.main h2 {
+  background-color: #cf8c8c;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px; }
+
+.main h3 {
+  text-align: center;
+  padding: 5px;
+  color: #f6bd60;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+.main .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .main .row .card {
+    margin: 7px;
+    background-color: #f7ede2; }
+    .main .row .card img:hover {
+      width: 300px;
+      height: 300px; }
+    .main .row .card .btn:hover {
+      color: #ffffff;
+      background-color: #f28482;
+      border-color: var(--bs-btn-hover-border-color); }
+
+.footer {
+  display: grid;
+  grid-template-areas: "seguinos seguinos seguinos seguinos" "redesDeFooter redesDeFooter redesDeFooter redesDeFooter" "encontranos encontranos encontranos encontranos" "ubicacion ubicacion ubicacion ubicacion";
+  grid-template-rows: repeat(4, 16vh);
+  background-color: #cf8c8c;
+  color: hwb(0 100% 0%);
+  font-size: 22px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly; }
+  .footer .seguinos {
+    grid-area: seguinos;
+    width: 100vw;
+    text-align: center; }
+  .footer .redesDeFooter {
+    grid-area: redesDeFooter;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .footer .redesDeFooter a {
+      text-align: center;
+      grid-area: redesDeFooter;
+      line-height: 2;
+      font-size: 20px;
+      background-color: white;
+      text-decoration: none;
+      padding: 10px;
+      color: indianred; }
+  .footer .encontranos {
+    grid-area: encontranos;
+    width: 100vw;
+    text-align: center; }
+  .footer .ubicacion {
+    grid-area: ubicacion;
+    width: 100vw;
+    text-align: center; }
+    .footer .ubicacion iframe {
+      width: 60vw;
+      height: 18vh;
+      grid-area: ubicacion; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .header img {
+    width: 50vw; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    background-color: #cf8c8c;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 100vw; }
+    .header ul a {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; }
+
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e99f9f;
+  border-top: 15px solid white;
+  border-bottom: 15px solid white;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 25px 25px;
+  width: 100vw;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+  .titulo span {
+    font-style: italic; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.qsflex {
+  display: flex;
+  padding: 15px;
+  background-color: #f5d8d8;
+  color: #574e4e; }
+
+.footer {
+  display: grid;
+  grid-template-areas: "seguinos seguinos seguinos seguinos" "redesDeFooter redesDeFooter redesDeFooter redesDeFooter" "encontranos encontranos encontranos encontranos" "ubicacion ubicacion ubicacion ubicacion";
+  grid-template-rows: repeat(4, 16vh);
+  background-color: #cf8c8c;
+  color: hwb(0 100% 0%);
+  font-size: 22px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly; }
+  .footer .seguinos {
+    grid-area: seguinos;
+    width: 100vw;
+    text-align: center; }
+  .footer .redesDeFooter {
+    grid-area: redesDeFooter;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .footer .redesDeFooter a {
+      text-align: center;
+      grid-area: redesDeFooter;
+      line-height: 2;
+      font-size: 20px;
+      background-color: white;
+      text-decoration: none;
+      padding: 10px;
+      color: indianred; }
+  .footer .encontranos {
+    grid-area: encontranos;
+    width: 100vw;
+    text-align: center; }
+  .footer .ubicacion {
+    grid-area: ubicacion;
+    width: 100vw;
+    text-align: center; }
+    .footer .ubicacion iframe {
+      width: 60vw;
+      height: 18vh;
+      grid-area: ubicacion; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .header img {
+    width: 50vw; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    background-color: #cf8c8c;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 100vw; }
+    .header ul a {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; }
+
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e99f9f;
+  border-top: 15px solid white;
+  border-bottom: 15px solid white;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 25px 25px;
+  width: 100vw;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+  .titulo span {
+    font-style: italic; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.mainEnvios {
+  display: inline;
+  text-align: center;
+  padding: 50px; }
+  .mainEnvios h5 {
+    color: saddlebrown;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center; }
+  .mainEnvios p {
+    color: sienna;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px; }
+
+.footer {
+  display: grid;
+  grid-template-areas: "seguinos seguinos seguinos seguinos" "redesDeFooter redesDeFooter redesDeFooter redesDeFooter" "encontranos encontranos encontranos encontranos" "ubicacion ubicacion ubicacion ubicacion";
+  grid-template-rows: repeat(4, 16vh);
+  background-color: #cf8c8c;
+  color: hwb(0 100% 0%);
+  font-size: 22px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly; }
+  .footer .seguinos {
+    grid-area: seguinos;
+    width: 100vw;
+    text-align: center; }
+  .footer .redesDeFooter {
+    grid-area: redesDeFooter;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .footer .redesDeFooter a {
+      text-align: center;
+      grid-area: redesDeFooter;
+      line-height: 2;
+      font-size: 20px;
+      background-color: white;
+      text-decoration: none;
+      padding: 10px;
+      color: indianred; }
+  .footer .encontranos {
+    grid-area: encontranos;
+    width: 100vw;
+    text-align: center; }
+  .footer .ubicacion {
+    grid-area: ubicacion;
+    width: 100vw;
+    text-align: center; }
+    .footer .ubicacion iframe {
+      width: 60vw;
+      height: 18vh;
+      grid-area: ubicacion; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .header img {
+    width: 50vw; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    background-color: #cf8c8c;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 100vw; }
+    .header ul a {
+      display: flex;
+      text-decoration: none;
+      color: white;
+      font-size: 20px; }
+
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e99f9f;
+  border-top: 15px solid white;
+  border-bottom: 15px solid white;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  padding: 25px 25px;
+  width: 100vw;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+  .titulo span {
+    font-style: italic; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.mainContacto {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: snow;
+  background: #f9f2fe;
+  background: linear-gradient(0deg, #f9f2fe 0%, #cf8c8c 100%);
+  padding: 60px; }
+
 /*medias query = MOBILE FIRST*/
 /* dispositivos medianos */
 @media (min-width: 768px) {

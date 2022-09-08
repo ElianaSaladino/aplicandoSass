@@ -1,0 +1,46 @@
+.main{
+    h2{
+    background-color:#cf8c8c ;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    }
+    h3{
+        text-align: center;
+        padding: 5px;
+        color: #f6bd60;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        margin: 20px;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+    }
+    .row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .card{
+            margin: 7px;
+            background-color: #f7ede2;
+            img:hover{
+                width: 300px;
+                height: 300px;
+            }
+            .btn:hover {
+                color:#ffffff ;
+                background-color: #f28482;
+                border-color: var(--bs-btn-hover-border-color);
+            }
+        }
+    }
+    
+}
+    
+
+
+
+
+
