@@ -1,0 +1,23 @@
+Modificaciones para SEO
+En cada pagina de mi proyecto coloque la barra | al lado del title para que el cliente sepa en que pagina se encuentra y facilite la navegacion.
+Agregado de keywords en cada pagina. 
+Las mismas son: 
+Index:
+-Keywords: le patisserie, pasteleria, dulce, torta, chocolate, macarons
+-Descripcion: Le patisserie es un emprendimiento dedicado a la pasteleria francesa en Buenos Aires
+Nosotros:
+-Keywords: le patisserie, nosotros, historia, quienes somos, pasteleria
+-Descripcion: Conoce quienes somos en Le patisserie
+Catalogo:
+-Keywords: le patisserie, catalogo, pedidos, encargue, pasteleria
+-Descripcion: Mira nuestro catalogo para ver productos disponibles
+Envios:
+-Keywords: le patisserie, envios, paquete, costo, pedido, torta
+-Descripcion: Consulta tarifas de envios y zonas
+Contacto:
+-Keywords: le patisserie, contacto, redes, ayuda, pedido
+-Descripcion: Completa formulario de contacto para consultar sobre un pedido
+
+Coloque etiqueta em en h1 de cada pagina.
+Elimine carpeta node_modules con .gitignore para que proyecto pese menos.
+
