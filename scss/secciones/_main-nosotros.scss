@@ -1,9 +1,17 @@
 
-.qsflex{
-    display: flex;
-    padding: 15px;
-    background-color: #f5d8d8;
-    color: #574e4e;
-    @include estiloTexto (25px);
-    
+
+
+main {
+    p{
+        padding: 20px;
+    }
+    .qsflex{
+        display: flex;
+        padding: 15px;
+        background-color: #f5d8d8;
+        color: #574e4e;
+        @include estiloTexto (25px);
+    }
+     
+
 }
