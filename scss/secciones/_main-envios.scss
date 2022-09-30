@@ -4,17 +4,19 @@
     text-align: center;
     padding: 50px;
     h5{
-        color:saddlebrown;
+        color:rgb(210, 122, 154);
         padding: 10px;
         font-size: 30px;
         text-align: center;
+        font-style: italic;
         
     }
     p{
         color: sienna;
         font-size: 20px;
         text-align: center;
-        padding: 90px;
+        padding: 100px;
+        @include estiloTexto (20px);
         
     }
 }

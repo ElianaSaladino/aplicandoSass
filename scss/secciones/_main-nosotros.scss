@@ -1,14 +1,12 @@
 
-div {
-    .qsflex{
+
+.qsflex{
         background-color: #f5d8d8;
         color: #574e4e;
-        @include estiloTexto (25px);
-    }
-    .blockquote {
-        margin: 18px 40px 1rem;
-    }
+        padding: 80px;
+        @include estiloTexto (20px);
 }
+
 
         
 
