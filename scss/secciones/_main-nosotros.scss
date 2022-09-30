@@ -1,11 +1,14 @@
 
-
-main {
-        .qsflex{
-            display: flex;
-            padding: 60px;
-            background-color: #f5d8d8;
-            color: #574e4e;
-            @include estiloTexto (25px);
-        }   
+div {
+    .qsflex{
+        background-color: #f5d8d8;
+        color: #574e4e;
+        @include estiloTexto (25px);
+    }
+    .blockquote {
+        margin: 18px 40px 1rem;
+    }
 }
+
+        
+

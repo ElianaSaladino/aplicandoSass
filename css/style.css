@@ -320,9 +320,7 @@
   100% {
     opacity: 1; } }
 
-.qsflex {
-  display: flex;
-  padding: 15px;
+div .qsflex {
   background-color: #f5d8d8;
   color: #574e4e;
   font-size: 25px;
@@ -331,6 +329,9 @@
   color: #af3991;
   background-color: #ffd8dcf8;
   font-style: "Nanum Gothic", sans-serif; }
+
+div .blockquote {
+  margin: 18px 40px 1rem; }
 
 .footer {
   display: grid;
@@ -432,13 +433,7 @@
     color: sienna;
     font-size: 20px;
     text-align: center;
-    padding: 20px;
-    font-size: 15px;
-    font-family: "Nanum Gothic", sans-serif;
-    font-style: italic;
-    color: #af3991;
-    background-color: #ffd8dcf8;
-    font-style: "Nanum Gothic", sans-serif; }
+    padding: 90px; }
 
 .footer {
   display: grid;
