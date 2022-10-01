@@ -36,7 +36,7 @@
             display: flex;
             justify-content: center;
             .ancho-carousel{
-                width: 80vw;
+                width: 70vw;
             }
             .buttonpf {
                 background-color: #cf8c8c;
@@ -45,6 +45,9 @@
             .btnFlex{
                 display: flex;
                 justify-content: center;
+            }
+            img{
+                height: 100vh;
             }
             
         }

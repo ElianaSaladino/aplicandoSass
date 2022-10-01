@@ -52,13 +52,15 @@
     display: flex;
     justify-content: center; }
     .main .displayflex .divFlexInicio .ancho-carousel {
-      width: 80vw; }
+      width: 70vw; }
     .main .displayflex .divFlexInicio .buttonpf {
       background-color: #cf8c8c;
       color: white; }
     .main .displayflex .divFlexInicio .btnFlex {
       display: flex;
       justify-content: center; }
+    .main .displayflex .divFlexInicio img {
+      height: 100vh; }
 
 /*header*/
 .header {
