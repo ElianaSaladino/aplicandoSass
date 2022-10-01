@@ -21,3 +21,4 @@ Contacto:
 Coloque etiqueta em en h1 de cada pagina.
 Elimine carpeta node_modules con .gitignore para que proyecto pese menos.
 
+Le agregue efecto hover a links de header
