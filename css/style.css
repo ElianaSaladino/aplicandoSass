@@ -85,6 +85,8 @@
       text-decoration: none;
       color: white;
       font-size: 20px; }
+    .header ul a:hover {
+      color: #4b082f; }
 
 .titulo {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
