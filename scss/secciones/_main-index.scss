@@ -6,10 +6,10 @@
         background-repeat: no-repeat;
         background-position: center;
         color: white;
-        font-size: 40px;
-        
-        padding: 99px;
+        font-size: 25px;
+        padding: 25px;
         width: 100vw;
+        text-align: center;
         #letraImagen{
             background-color:rgba(128, 128, 128, 0.315);
             font-family: 'Nanum Gothic', sans-serif;
@@ -46,6 +46,7 @@
                 display: flex;
                 justify-content: center;
             }
+            
         }
     }
     
